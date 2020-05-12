@@ -1,0 +1,122 @@
+body{
+    background-color: #EEEEEE;
+}
+
+/*---------------PAGE STYLE---------------*/
+
+.page-container{
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 15px;
+}
+
+/*---------------COMMON STYLE---------------*/
+
+.appbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    box-shadow: 0px 0.1px 8px #888888;
+}
+
+.appbar-title {
+    display: inline;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none !important;
+}
+
+.appbar-button {
+    display: inline;
+}
+
+/*---------------OVERLAY STYLE---------------*/
+
+.o-container{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 40px;
+    background-color: #FFF;
+}
+
+.o-title{
+    width: 100%;
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.o-input{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .o-container {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/*---------------START PAGE STYLE---------------*/
+
+.s-headline {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.s-flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.s-option-panel{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 300px;
+    overflow-wrap: break-word;
+    align-self: stretch;
+}
+
+.s-option-title{
+    margin-bottom: 5px;
+}
+
+.s-option-description{
+    flex: 1 1 auto;
+    margin-bottom: 5px;
+}
+
+/*---------------FIXING PAGE STYLE---------------*/
+
+.f-flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-panel{
+    margin-top: 2%;
+    width: 400px;
+}
+
+.f-title{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/*---------------MUI CUSTOMIZATION---------------*/
+.mui-btn {
+    transition: none !important;
+}

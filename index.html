@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <link href="css/libraries/mui.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/libraries/mui-colors.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/libraries/jquery-3.3.1.min.js"></script>
+    <script src="js/libraries/mui.min.js"></script>
+    <script src="js/style-configurator/index.js"></script>
+    <script src="js/request-handler/index.js"></script>
+    <script src="js/overlay-handler/index.js"></script>
+
+    <title>Top Change CMS</title>
+</head>
+
+<body class="mui--no-user-select">
+    <!--Appbar START-->
+    <div class="appbar">
+        <a class="appbar-title" href="#">top change CMS</a>
+        <button class="appbar-button" onclick="getAuthenticationOverlay('reload');">Reload</button>
+    </div>
+    <!--Appbar END-->
+
+    <div class="page-container">
+        <!--
+            User Control Section START
+        -->
+        <div>
+            <div class="s-headline">User Control</div>
+            <div class="s-flex-row">
+                <!--
+                    First Option START
+                -->
+                <div class="s-option-panel">
+                    <div class="s-option-title">
+                        Add New User
+                    </div>
+                    <div class="s-option-description">
+                        Adding a new user will allow him to log into TopChange fixing app with certain password.
+                    </div>
+                    <button class="s-option-button">Add</button>
+                </div>
+                <!--
+                    First Option END
+                -->
+                <!--
+                    Second Option START
+                -->
+                <div class="s-option-panel">
+                    <div class="s-option-title">
+                        Remove User
+                    </div>
+                    <div class="s-option-description">
+                        Removing a user will permanently deprive him of access to TopChange fixing app.
+                    </div>
+                    <button class="s-option-button">Remove</button>
+                </div>
+                <!--
+                    Second Option END
+                -->
+                <!--
+                    Third Option START
+                -->
+                <div class="s-option-panel">
+                    <div class="s-option-title">
+                        Show All Users
+                    </div>
+                    <div class="s-option-description">
+                        Use this option to view all of the users that have access to TopChange fixing app.
+                    </div>
+                    <button class="s-option-button">Show</button>
+                </div>
+                <!--
+                    Third Option END
+                -->
+            </div>
+        </div>
+        <!--
+            User Control Section END
+        -->
+        <!--
+            Fixing Control Section START
+        -->
+        <div>
+            <div class="s-headline">Fixing Control</div>
+            <div class="s-flex-row">
+                <!--
+                    First Option START
+                -->
+                <div class="s-option-panel">
+                    <div class="s-option-title">
+                        Update Buy 1 / Sell 1 percent
+                    </div>
+                    <div class="s-option-description">
+                        Update percent by witch Buy1 and Sell 1 fields are calculated in TopChange fixing app.
+                    </div>
+                    <a href="Fixing Control/Update Percent/index.html" class="s-option-button">Update</a>
+                </div>
+                <!--
+                    First Option END
+                -->
+                <!--
+                    Second Option START
+                -->
+                <div class="s-option-panel">
+                    <div class="s-option-title">
+                        Update Buy 1 / Sell 1 Manually
+                    </div>
+                    <div class="s-option-description">
+                        Update manually the value of Buy 1 / Sell 1 if needed
+                    </div>
+                    <a href="Fixing Control/Update Manually/index.html" class="s-option-button">Update</a>
+                </div>
+                <!--
+                    Second Option END
+                -->
+                <!--
+                    Third Option START
+                -->
+                <div class="s-option-panel">
+                    <div class="s-option-title">
+                        View Current Fixing
+                    </div>
+                    <div class="s-option-description">
+                        Use this option to view the current fixing.
+                    </div>
+                    <button class="s-option-button">Show</button>
+                </div>
+                <!--
+                    Third Option END
+                -->
+            </div>
+        </div>
+        <!--
+            Fixing Control Section END
+        -->
+    </div>
+</body>
+
+</html>

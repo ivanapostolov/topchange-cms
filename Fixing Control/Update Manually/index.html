@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <link href="../../css/libraries/mui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/libraries/mui-colors.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/index.css" rel="stylesheet" type="text/css" />
+
+    <script src="../../js/libraries/jquery-3.3.1.min.js"></script>
+    <script src="../../js/libraries/mui.min.js"></script>
+    <script src="../../js/style-configurator/index.js"></script>
+    <script src="../../js/request-handler/index.js"></script>
+    <script src="../../js/overlay-handler/index.js"></script>
+
+    <title>Top Change CMS</title>
+</head>
+
+<body>
+    <!--Appbar START-->
+    <div class="appbar">
+        <a class="appbar-title" href="../../index.html">top change CMS</a>
+        <button class="appbar-button" onclick="getAuthenticationOverlay('reload');">Reload</button>
+    </div>
+    <!--Appbar END-->
+
+    <div class="page-container">
+        <div class="f-flex-container">
+            <div class="f-panel">
+                <div class="f-title">
+                    Update Buy 1 / Sell 1 Manually
+                </div>
+                <div class="mui-select">
+                    <select id="UpdateManuallyAbbr">
+                        <option>USD</option>
+                        <option>GBP</option>
+                        <option>CHF</option>
+                        <option>RUB</option>
+                        <option>RON</option>
+                        <option>NOK</option>
+                        <option>DKK</option>
+                        <option>TRY</option>
+                        <option>PLN</option>
+                        <option>SEK</option>
+                        <option>CZK</option>
+                        <option>AUD</option>
+                        <option>CAD</option>
+                        <option>HUF</option>
+                        <option>ILS</option>
+                    </select>
+                    <label>Currency abbreviation</label>
+                </div>
+                <div class="f-input-field">
+                    <input id="UpdateManuallyValue" type="number">
+                    <label>Value</label>
+                </div>
+                <button class="f-button" onclick="getAuthenticationOverlay('update-manually')">Update</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
